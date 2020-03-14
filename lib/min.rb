@@ -9,7 +9,7 @@ require 'pry'
 # }
 
 def get_the_min(groceries)
-  val =  groceries
+  val =  groceries.values
   val
   binding.pry
 end
